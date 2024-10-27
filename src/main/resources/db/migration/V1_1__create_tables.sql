@@ -17,3 +17,5 @@ CREATE TABLE orders (
 
 CREATE INDEX idx_products_name ON products (name);
 CREATE INDEX idx_orders_product_id ON orders (product_id);
+
+
