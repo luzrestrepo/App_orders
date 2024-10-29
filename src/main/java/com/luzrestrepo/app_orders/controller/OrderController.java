@@ -35,7 +35,7 @@ public class OrderController {
     public String viewOrders(Model model) {
         List<Order> orders = orderService.getAllOrders();
         model.addAttribute("orders", orders);
-        return "orders";  // This will look for orders.html template
+        return "orders";  
     }
 
 }
